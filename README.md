@@ -1,3 +1,5 @@
+> **Notice (2026-10-18): contributions paused.** These results are being recomputed with a revised pipeline. Pull requests and issues are paused until the next release.
+>
 > **Notice (2026-10-17): false-positive probabilities withdrawn.** The false-positive probability (FPP) values that used to be listed here, and the `tri_*` labels derived from them, were withdrawn because the model that produced them had known defects; a corrected model is in progress, and the values will be recomputed and republished. The candidate classifier score (`clf_planet_candidate`) used FPP as one of its inputs, so rankings may shift after the recompute. Until then, please do not use these tables to rank or dismiss candidates.
 >
 > *2026-10-17 - Withdrew all FPP/NFPP values and the FPP-derived tier labels (shown as `fpp_withheld`); a corrected model is in progress and every value will be recomputed.*
