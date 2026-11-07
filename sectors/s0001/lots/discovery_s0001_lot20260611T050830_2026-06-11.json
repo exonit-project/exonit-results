@@ -44,7 +44,6 @@
       "n": 98
     },
     "fp_rate_cnn": 0.8928571428571429,
-    "fp_rate_claude": 0.4642857142857143,
     "n_fp_processed": 28,
     "exominer": {
       "threshold": 0.5,

@@ -57,3 +57,5 @@
 | **total** | | 1806301/1911314 | 13 | 392 | 12 |
 
 `n/a`: no completed/failed counts were recorded for that lot; the completed, total and failed totals above cover only the lots that have them.
+
+Note: membership of the strong and finalist lists was decided with the previous FPP model and is being recomputed.

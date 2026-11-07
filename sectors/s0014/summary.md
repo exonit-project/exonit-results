@@ -50,3 +50,5 @@
 | discovery_s0014_lot20260731T054722_2026-07-31 | 2026-07-31 | 299874/300000 | 85 | 0 | 0 |
 | discovery_s0014_lot20260731T232258_2026-07-31 | 2026-08-01 | 149869/150000 | 90 | 0 | 0 |
 | **total** | | 8595944/8598419 | 2024 | 20 | 11 |
+
+Note: membership of the strong and finalist lists was decided with the previous FPP model and is being recomputed.

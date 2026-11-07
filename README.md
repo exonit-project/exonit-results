@@ -1,8 +1,4 @@
-> **Notice (2026-10-18): contributions paused.** These results are being recomputed with a revised pipeline. Pull requests and issues are paused until the next release.
->
-> **Notice (2026-10-17): false-positive probabilities withdrawn.** The false-positive probability (FPP) values that used to be listed here, and the `tri_*` labels derived from them, were withdrawn because the model that produced them had known defects; a corrected model is in progress, and the values will be recomputed and republished. The candidate classifier score (`clf_planet_candidate`) used FPP as one of its inputs, so rankings may shift after the recompute. Until then, please do not use these tables to rank or dismiss candidates.
->
-> *2026-10-17 - Withdrew all FPP/NFPP values and the FPP-derived tier labels (shown as `fpp_withheld`); a corrected model is in progress and every value will be recomputed.*
+> **Notice: contributions paused.** These results are being recomputed with a revised pipeline. Pull requests and issues are paused until the next release.
 
 # ExoNit — public results
 
@@ -10,8 +6,18 @@
 > astrophysicist. These are raw pipeline outputs. **Do NOT submit anything here to ExoFOP** and do not make
 > scientific claims based on it. See [CONFIDENCE_LEDGER.md](CONFIDENCE_LEDGER.md).
 
-Generated 2026-10-14T14:51:28Z from internal commit `b926fc7b82b2bef69de304c9762a50acb8aa8e13` by `scripts/release/build_public_results.py`
-of [exonit-public](https://github.com/marc252/exonit-public). Everything here is generated (FPP values withheld afterwards by a post-processing step); do not edit by hand.
+Generated 2026-11-07T09:00:28Z from internal commit `a32c4e0fd6c03807cd1ad45486cbdccd3ebb986c` by `scripts/release/build_public_results.py`
+of [exonit-public](https://github.com/marc252/exonit-public). Everything here is generated; do not edit by hand.
+
+**Recompute progress:** 8 of 924 strong rows recomputed with the v3 FPP model; the others read `pending recompute`.
+
+Note: membership of the strong and finalist lists was decided with the previous FPP model and is being recomputed.
+
+The values withdrawn from this repository remain in its git history.
+
+False-positive probabilities (FPP) are published only when they come from model v3; every other FPP, and every
+label derived from it, reads `pending recompute`. Sections that could not be rewritten safely are not published
+(`withheld_sections` in `INDEX.json`).
 
 ## What is here
 - `sectors/s<NNNN>/summary.md` — one row per processed lot (TICs completed, failed, strong candidates, finalists).
@@ -22,7 +28,7 @@ of [exonit-public](https://github.com/marc252/exonit-public). Everything here is
   and the catalog cross-match columns.
 - `candidates/new_candidates.csv` — only the rows found in none of the catalogs;
   `candidates/crossmatch_sources.json` — exactly which catalogs, versions and retrieval time were used.
-- `benchmarks/` — the latest blind TOI benchmark (recall of KP/CP/PC hosts processed with TGLC light curves).
+- `benchmarks/` — not published for now: its L2/L3 recall figures depend on the former FPP values.
 - `INDEX.json` — machine-readable totals.
 
 ## How to read `pipeline_label`
@@ -31,12 +37,16 @@ follow-up observations (spectroscopy, high-resolution imaging, ground-based phot
 
 | pipeline_label | what it means |
 |---|---|
-| `fpp_withheld` | Replaces the former FPP-derived tier labels. FPP (false-positive probability) is withheld, see the notice at the top: the labels were derived from FPP values produced by a model with known defects, and will be republished after a recompute. |
+| `tri_low_fpp` | TRICERATOPS false-positive probability FPP < 0.015 and nearby-FPP < 0.001. These are the thresholds of Giacalone et al. (2021) for statistical validation, but here they are computed from the TESS light curve alone, **without the follow-up constraints that validation requires**, so this is not a validation. |
+| `tri_mid_fpp` | TRICERATOPS FPP below 0.5 but not meeting the `tri_low_fpp` thresholds. |
+| `tri_high_fpp` | TRICERATOPS FPP >= 0.5: likely a false positive. |
 | `tri_failed` | The TRICERATOPS run failed (no FPP). |
+| `pending recompute` | The FPP of this row has not been recomputed with model v3 yet; no FPP and no FPP-derived label is shown. |
 | `unscored` | No TRICERATOPS result was available when the dossier was written. |
 | `clf_planet_candidate` | The gradient-boosted verdict classifier scored above its threshold on the pipeline's own features. A classifier score is not a disposition. |
 
-Older dossiers used different words for the FPP-derived labels; all of them now read `fpp_withheld`.
+Older dossiers wrote the first three TRICERATOPS labels with different words; the published files use the names
+above so that nobody reads them as a validation.
 
 ## Known objects and aliases
 Every strong row is cross-matched (by TIC, or by sky position for the Gaia tables) against: the ExoFOP TOI and
@@ -60,12 +70,12 @@ Thousand EB catalog (Kostov et al. 2025) and the Gaia DR3 eclipsing-binary and n
 | s0003 | 3 | 0 | 0 |
 | s0005 | 5 | 0 | 0 |
 | s0006 | 15 | 0 | 0 |
-| s0007 | 8 | 0 | 0 |
+| s0007 | 15 | 0 | 0 |
 | s0014 | 47 | 20 | 11 |
 | s0015 | 16 | 2 | 0 |
 | s0017 | 18 | 8 | 0 |
 | s0018 | 12 | 0 | 0 |
-| s0023 | 17 | 502 | 224 |
+| s0023 | 17 | 502 | 222 |
 | s0026 | 8 | 0 | 0 |
 
 ## Strong rows by known status

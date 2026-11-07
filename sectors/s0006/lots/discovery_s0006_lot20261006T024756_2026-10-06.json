@@ -14,7 +14,7 @@
       "n_kp_cp": 0,
       "n_detected": 0,
       "lot_size": 300000,
-      "reason": "the lot contains no KP/CP \u2014 recall is not measurable",
+      "reason": "the lot contains no KP/CP — recall is not measurable",
       "lot_csv": "data/discovery/s0006_lot_20261006T024756.csv"
     },
     "cumulative": {
@@ -57,7 +57,6 @@
       "n": 650
     },
     "fp_rate_cnn": 0.8335056876938987,
-    "fp_rate_claude": 0.23578076525336092,
     "n_fp_processed": 967,
     "exominer": {
       "threshold": 0.5,
