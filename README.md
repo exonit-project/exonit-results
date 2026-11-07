@@ -6,7 +6,7 @@
 > astrophysicist. These are raw pipeline outputs. **Do NOT submit anything here to ExoFOP** and do not make
 > scientific claims based on it. See [CONFIDENCE_LEDGER.md](CONFIDENCE_LEDGER.md).
 
-Generated 2026-11-07T09:00:28Z from internal commit `a32c4e0fd6c03807cd1ad45486cbdccd3ebb986c` by `scripts/release/build_public_results.py`
+Generated 2026-11-07T09:06:44Z from internal commit `a61ec6ec5a2b6a317596165792b0acb14839ce2a` by `scripts/release/build_public_results.py`
 of [exonit-public](https://github.com/marc252/exonit-public). Everything here is generated; do not edit by hand.
 
 **Recompute progress:** 8 of 924 strong rows recomputed with the v3 FPP model; the others read `pending recompute`.
@@ -18,6 +18,24 @@ The values withdrawn from this repository remain in its git history.
 False-positive probabilities (FPP) are published only when they come from model v3; every other FPP, and every
 label derived from it, reads `pending recompute`. Sections that could not be rewritten safely are not published
 (`withheld_sections` in `INDEX.json`).
+
+## What changed (November 2026)
+- **Corrected false-positive model (v3).** The former values were withdrawn on 2026-10-17 because the model that produced
+  them had several defects (wrong transit centre for eccentric orbits, a spurious dip at phase 0.5, an overestimated
+  secondary-eclipse depth, noise that included the transit, no exposure-time integration). The new model was
+  checked against official TRICERATOPS 1.1.0 on 125 TOIs: the class (low, middle or high false-positive probability)
+  agrees in 81 % of them, and on the TOIs where the official value is clearly outside its own Monte Carlo noise,
+  agreement is 97 % at the 0.015 threshold and 96 % at the 0.5 threshold. It was also validated
+  on 100 TOIs not used during development, with criteria fixed in advance. Period and duration are refined before
+  the FPP is computed.
+- **Recompute in progress.** Every historical value is being recomputed with the new model; the count above grows as the
+  farm works through them. Rows computed before the period/duration refinement are recomputed too and stay
+  `pending recompute` until then.
+- **TRICERATOPS normalisation.** Our model corrects a normalisation of the nearby-star scenarios that makes their
+  probability too low in TRICERATOPS 1.1.0 and 1.0.20; see
+  [triceratops issue #51](https://github.com/stevengiacalone/triceratops/issues/51).
+- **TGLC depths.** TGLC transit depths were about 9 % too deep; they are divided by 1.09 before the planet radius is
+  computed, and the radius flags use the corrected value.
 
 ## What is here
 - `sectors/s<NNNN>/summary.md` — one row per processed lot (TICs completed, failed, strong candidates, finalists).
