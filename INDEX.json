@@ -1,6 +1,6 @@
 {
   "finalist_rows": 245,
-  "generated_at": "2026-11-07T09:11:59Z",
+  "generated_at": "2026-11-07T19:53:45Z",
   "internal_sha": "5332c63aa79bfb021770337a75cb0171de5be7b1",
   "known_status_counts": {
     "ctoi": 6,
@@ -16,7 +16,7 @@
     "membership_note": "Note: membership of the strong and finalist lists was decided with the previous FPP model and is being recomputed.",
     "model": "v3 only",
     "pending_label": "pending recompute",
-    "recomputed": 8,
+    "recomputed": 7,
     "total": 924
   },
   "sectors": {
