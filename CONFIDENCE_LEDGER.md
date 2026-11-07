@@ -42,7 +42,7 @@ Most of the L1 boxes are partially complete from prior work. The next push (L0 �
 - [ ] **ExoMiner-FFI integration into verdict** (Phase 3 deploy) with scorecard demonstrating no recall loss vs the SPOC-only verdict on overlapping TICs.
 - [ ] **6 months rolling** with no critical bug introducing systematic FP or KP/CP loss. Tracked in this ledger.
 - [ ] **Internal code audit**: TODOs, dead code, OWASP-style security issues, secrets leak check. One write-up committed.
-- [ ] **Astropy-style contribution guide** ([CONTRIBUTING.md](https://github.com/marc252/exonit-public/blob/main/CONTRIBUTING.md)) so an external reviewer knows how to engage.
+- [ ] **Astropy-style contribution guide** ([CONTRIBUTING.md](https://github.com/exonit-project/exonit-public/blob/main/CONTRIBUTING.md)) so an external reviewer knows how to engage.
 
 ### Gating criteria — L2 → L3 (`externally-reviewed`)
 
@@ -67,8 +67,8 @@ Format: each entry is a dated row. New entries go *below*, oldest stays at the t
 | Date | Event | Category | Level impact |
 |---|---|---|---|
 | 2026-05-06 | Confidence Ledger system established. Project rescoped from "future public" to "personal until L3". | system | L0 declared |
-| 2026-09-19 | First blind TOI benchmark on discovery-grade data (TGLC only, 4,490 TOI hosts never processed before). KP+CP: signal at TOI period 65.0 %, verdict `planet_candidate` 20.1 %, strong-eligible 19.1 %; FP promoted 12.6 %. Artefacts: `benchmarks/toi_bench_tglc_2026-09-19.*` in [exonit-results](https://github.com/marc252/exonit-results). Establishes the per-source (FFI) recall metric required for L1→L2; no repeat run yet, so no noise band. | evidence | L0 (no change; first L1→L2 evidence item) |
-| 2026-10-12 | Publication policy revised: the code ([exonit-public](https://github.com/marc252/exonit-public), 2026-10-11) and the raw pipeline outputs ([exonit-results](https://github.com/marc252/exonit-results): per-lot scorecards, vetting dossiers, strong candidates, TOI benchmark) are published at L0 as an openly experimental project, with the disclaimer in every README. Publishing does not raise the level: L3 is still required before any scientific claim, before presenting any candidate as a discovery, and before any ExoFOP submission. | policy | L0 (no change) |
+| 2026-09-19 | First blind TOI benchmark on discovery-grade data (TGLC only, 4,490 TOI hosts never processed before). KP+CP: signal at TOI period 65.0 %, verdict `planet_candidate` 20.1 %, strong-eligible 19.1 %; FP promoted 12.6 %. Artefacts: `benchmarks/toi_bench_tglc_2026-09-19.*` in [exonit-results](https://github.com/exonit-project/exonit-results). Establishes the per-source (FFI) recall metric required for L1→L2; no repeat run yet, so no noise band. | evidence | L0 (no change; first L1→L2 evidence item) |
+| 2026-10-12 | Publication policy revised: the code ([exonit-public](https://github.com/exonit-project/exonit-public), 2026-10-11) and the raw pipeline outputs ([exonit-results](https://github.com/exonit-project/exonit-results): per-lot scorecards, vetting dossiers, strong candidates, TOI benchmark) are published at L0 as an openly experimental project, with the disclaimer in every README. Publishing does not raise the level: L3 is still required before any scientific claim, before presenting any candidate as a discovery, and before any ExoFOP submission. | policy | L0 (no change) |
 
 ---
 
