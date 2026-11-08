@@ -211,7 +211,7 @@ s0001,discovery_s0001_lot20260611T050830_2026-06-11,219330891,5.34,3205,29,0.89,
 s0001,discovery_s0001_lot20260612T050945_2026-06-12,219338027,14.31,1037,11,0.90,ok,pending recompute,pending recompute,pending recompute,new,,,
 s0001,discovery_s0001_lot20260611T050830_2026-06-11,219338557,2.73,133,15,0.85,ok,pending recompute,pending recompute,pending recompute,known_fp,TOI-133.01,8.19966,1/3x
 s0001,discovery_s0001_lot20260612T050945_2026-06-12,219342158,14.23,2779,12,0.58,V-shape,pending recompute,pending recompute,pending recompute,new,,,
-s0001,discovery_s0001_lot20260621T170419_2026-06-21,220435095,3.42,6834,1213,0.55,ok,pending recompute,pending recompute,pending recompute,known_fp,TOI-147.01;Prsa2022,3.4231,same
+s0001,discovery_s0001_lot20260621T170419_2026-06-21,220435095,3.42,6834,1213,0.55,ok,1,1.04385e-241,tri_mid_fpp,known_fp,TOI-147.01;Prsa2022,3.4231,same
 s0001,discovery_s0001_lot20260612T050945_2026-06-12,220507336,6.97,2270,12,0.58,secondary,pending recompute,pending recompute,pending recompute,new,,,
 s0001,discovery_s0001_lot20260621T170419_2026-06-21,220524097,3.96,7635,85,0.73,ok,pending recompute,pending recompute,pending recompute,toi_candidate,TOI-6722.01;CTOI-220524097.01,3.96131,same
 s0001,discovery_s0001_lot20260617T055758_2026-06-17,220555048,2.42,13928,83,0.90,secondary,pending recompute,pending recompute,pending recompute,known_eb,GaiaDR3-NSS:tbosb1,,
@@ -285,7 +285,7 @@ s0001,discovery_s0001_lot20260621T200853_2026-06-22,271971130,9.64,1673,19,0.89,
 s0001,discovery_s0001_lot20260614T155731_2026-06-15,273476652,14.50,959,14,0.91,ok,pending recompute,pending recompute,pending recompute,new,,,
 s0001,discovery_s0001_lot20260621T170419_2026-06-21,273695332,3.47,2515,110,0.93,ok,pending recompute,pending recompute,pending recompute,toi_candidate,TOI-2223.01,6.93097,1/2x
 s0001,discovery_s0001_lot20260611T050830_2026-06-11,277683130,6.20,647,39,0.86,ok,pending recompute,pending recompute,pending recompute,toi_candidate,TOI-138.01;Prsa2022,6.19827,same
-s0001,discovery_s0001_lot20260621T200853_2026-06-22,278138619,10.17,3247,225,0.82,ok,1.59255e-13,1.2993e-79,tri_mid_fpp,toi_candidate,TOI-2219.01,10.1689,same
+s0001,discovery_s0001_lot20260621T200853_2026-06-22,278138619,10.17,3247,225,0.82,ok,pending recompute,pending recompute,pending recompute,toi_candidate,TOI-2219.01,10.1689,same
 s0001,discovery_s0001_lot20260605T120916_2026-06-05,278525792,5.20,1839,11,0.87,ok,pending recompute,pending recompute,pending recompute,new,,,
 s0001,discovery_s0001_lot20260605T120916_2026-06-05,278536652,7.12,4592,36,0.90,ok,pending recompute,pending recompute,pending recompute,ctoi,CTOI-278536652.01;GaiaDR3-NSS:tbosb1,7.13154,same
 s0001,discovery_s0001_lot20260605T194912_2026-06-06,278564641,11.07,4032,13,0.64,ok,pending recompute,pending recompute,pending recompute,new,,,
@@ -301,14 +301,14 @@ s0001,discovery_s0001_lot20260624T052035_2026-06-24,278866211,2.19,694,47,0.73,V
 s0001,discovery_s0001_lot20260621T170419_2026-06-21,279741379,3.89,85,12,0.93,ok,pending recompute,pending recompute,pending recompute,known_planet,TOI-186.01;TOI-186.02;GJ 143 b;HD 21749 c,7.78979,1/2x
 s0001,discovery_s0001_lot20260621T170419_2026-06-21,280096473,6.44,1254,55,0.67,ok,pending recompute,pending recompute,pending recompute,toi_candidate,TOI-3262.01,12.8771,1/2x
 s0001,discovery_s0001_lot20260621T170419_2026-06-21,280097543,18.91,772,92,0.65,not-revetted,pending recompute,pending recompute,pending recompute,known_planet,TOI-375.01;TOI-375 b;TOI-375 c;TOI-375 d;Prsa2022,9.45465,2x
-s0001,discovery_s0001_lot20260621T170419_2026-06-21,280803917,2.56,4110,199,0.89,ok,pending recompute,pending recompute,pending recompute,toi_candidate,TOI-2212.01,5.12939,1/2x
+s0001,discovery_s0001_lot20260621T170419_2026-06-21,280803917,2.56,4110,199,0.89,ok,0.00110249,4.51581e-69,tri_mid_fpp,toi_candidate,TOI-2212.01,5.12939,1/2x
 s0001,discovery_s0001_lot20260614T155731_2026-06-15,281667171,14.51,1952,11,0.89,ok,pending recompute,pending recompute,pending recompute,new,,,
 s0001,discovery_s0001_lot20260621T200853_2026-06-22,290777444,3.05,1942,284,0.85,not-revetted,0,3.81948e-318,tri_mid_fpp,toi_candidate,TOI-6549.01;CTOI-290777444.01;GaiaDR3-NSS:tbosb1,6.10796,1/2x
 s0001,discovery_s0001_lot20260621T170419_2026-06-21,294780517,88.50,338,7,0.58,odd/even,pending recompute,pending recompute,pending recompute,known_fp,TOI-792.01,15.6477,other
 s0001,discovery_s0001_lot20260616T055332_2026-06-16,299800007,3.36,133,13,0.92,ok,pending recompute,pending recompute,pending recompute,new,,,
 s0001,discovery_s0001_lot20260622T003354_2026-06-22,300013921,6.07,273,30,0.82,ok,pending recompute,pending recompute,pending recompute,known_fp,TOI-793.01,54.6616,other
 s0001,discovery_s0001_lot20260622T003354_2026-06-22,300293197,3.28,273,374,0.86,odd/even,pending recompute,pending recompute,pending recompute,toi_candidate,TOI-211.01;Prsa2022,6.56387,1/2x
-s0001,discovery_s0001_lot20260622T003354_2026-06-22,300381700,3.03,1702,161,0.52,ok,pending recompute,pending recompute,pending recompute,toi_candidate,TOI-7387.01;CTOI-300381700.01,9.08566,1/3x
+s0001,discovery_s0001_lot20260622T003354_2026-06-22,300381700,3.03,1702,161,0.52,ok,0.75931,0.623856,tri_high_fpp,toi_candidate,TOI-7387.01;CTOI-300381700.01,9.08566,1/3x
 s0001,discovery_s0001_lot20260622T003354_2026-06-22,300604770,3.46,1079,24,0.92,V-shape,pending recompute,pending recompute,pending recompute,toi_candidate,TOI-2626.01;CTOI-300604770.01,3.45628,same
 s0001,discovery_s0001_lot20260621T200853_2026-06-22,300710077,12.97,501,13,0.91,ok,pending recompute,pending recompute,pending recompute,known_planet,TOI-789.01;TOI-789.02;TOI-789.03;TOI-789 b;TOI-789 c;TOI-789 d,12.9707,same
 s0001,discovery_s0001_lot20260622T063107_2026-06-22,300864184,14.46,3988,11,0.59,ok,pending recompute,pending recompute,pending recompute,new,,,
@@ -326,7 +326,7 @@ s0001,discovery_s0001_lot20260601T050658_2026-06-01,320952731,1.68,2700,12,0.62,
 s0001,discovery_s0001_lot20260601T050658_2026-06-01,320953476,1.08,2061,10,0.92,ok,pending recompute,pending recompute,pending recompute,known_eb,GaiaDR3-NSS:tbosb1,,
 s0001,discovery_s0001_lot20260601T050658_2026-06-01,320965414,1.68,2957,13,0.58,ok,pending recompute,pending recompute,pending recompute,new,,,
 s0001,discovery_s0001_lot20260531T182003_2026-05-31,320966391,0.75,2959,11,0.51,ok,pending recompute,pending recompute,pending recompute,new,,,
-s0001,discovery_s0001_lot20260621T200853_2026-06-22,322307342,3.59,3531,50,0.93,ok,pending recompute,pending recompute,pending recompute,known_planet,TOI-117.01;HATS-68 b,3.5863,same
+s0001,discovery_s0001_lot20260621T200853_2026-06-22,322307342,3.59,3531,50,0.93,ok,1.38793e-05,4.70593e-66,tri_mid_fpp,known_planet,TOI-117.01;HATS-68 b,3.5863,same
 s0001,discovery_s0001_lot20260610T051140_2026-06-10,325095463,7.37,2029,13,0.63,ok,pending recompute,pending recompute,pending recompute,new,,,
 s0001,discovery_s0001_lot20260624T052035_2026-06-24,339733013,5.62,347,63,0.78,odd/even,pending recompute,pending recompute,pending recompute,known_fp,TOI-417.01,5.62155,same
 s0001,discovery_s0001_lot20260621T170419_2026-06-21,348770361,5.54,1062,144,0.94,secondary,pending recompute,pending recompute,pending recompute,toi_candidate,TOI-161.01;Prsa2022,2.76843,2x
@@ -335,7 +335,7 @@ s0001,discovery_s0001_lot20260623T084000_2026-06-23,349370229,2.32,2074,10,0.72,
 s0001,discovery_s0001_lot20260623T184218_2026-06-23,349410350,12.10,1720,34,0.56,ok,pending recompute,pending recompute,pending recompute,toi_candidate,TOI-2624.01,3.02354,4x
 s0001,discovery_s0001_lot20260623T184218_2026-06-23,349518800,4.33,1539,39,0.78,secondary,pending recompute,pending recompute,pending recompute,toi_candidate,TOI-407.01,2.16547,2x
 s0001,discovery_s0001_lot20260621T170419_2026-06-21,350153977,6.37,554,65,0.69,secondary,pending recompute,pending recompute,pending recompute,known_planet,TOI-908.01;TOI-908 b,3.18378,2x
-s0001,discovery_s0001_lot20260621T200853_2026-06-22,350445771,3.19,1884,348,0.53,odd/even,pending recompute,pending recompute,pending recompute,known_fp,TOI-258.01;Prsa2022,3.19016,same
+s0001,discovery_s0001_lot20260621T200853_2026-06-22,350445771,3.19,1884,348,0.53,odd/even,0.999662,0.603654,tri_high_fpp,known_fp,TOI-258.01;Prsa2022,3.19016,same
 s0001,discovery_s0001_lot20260621T200853_2026-06-22,350563801,18.53,1253,32,0.86,ok,pending recompute,pending recompute,pending recompute,new,,,
 s0001,discovery_s0001_lot20260621T200853_2026-06-22,350655963,14.56,1685,12,0.91,ok,pending recompute,pending recompute,pending recompute,new,,,
 s0001,discovery_s0001_lot20260621T200853_2026-06-22,350743714,3.88,446,279,0.82,odd/even,pending recompute,pending recompute,pending recompute,known_fp,TOI-165.01;Prsa2022,7.75764,1/2x
@@ -372,7 +372,7 @@ s0001,discovery_s0001_lot20260621T170419_2026-06-21,394137592,11.54,983,49,0.98,
 s0001,discovery_s0001_lot20260621T170419_2026-06-21,394287035,4.28,1715,54,0.82,ok,pending recompute,pending recompute,pending recompute,known_planet,TOI-2328.01;CTOI-394287035.01;TOI-2328 b,17.102,1/4x
 s0001,discovery_s0001_lot20260616T055332_2026-06-16,394340319,3.04,2840,14,0.92,V-shape,pending recompute,pending recompute,pending recompute,ctoi,CTOI-394340319.01;Prsa2022;GaiaDR3-NSS:tbosb2,3.0371,same
 s0001,discovery_s0001_lot20260621T170419_2026-06-21,394346647,5.18,2746,26,0.93,ok,pending recompute,pending recompute,pending recompute,toi_candidate,TOI-2620.01,10.3559,1/2x
-s0001,discovery_s0001_lot20260621T170419_2026-06-21,394346745,3.40,4015,41,0.86,ok,pending recompute,pending recompute,pending recompute,toi_candidate,TOI-2487.01;CTOI-394346745.01,3.40247,same
+s0001,discovery_s0001_lot20260621T170419_2026-06-21,394346745,3.40,4015,41,0.86,ok,0.810507,0,tri_mid_fpp,toi_candidate,TOI-2487.01;CTOI-394346745.01,3.40247,same
 s0001,discovery_s0001_lot20260615T075032_2026-06-15,394633233,14.55,1645,14,0.90,V-shape,pending recompute,pending recompute,pending recompute,new,,,
 s0001,discovery_s0001_lot20260611T050830_2026-06-11,403153647,5.34,4588,58,0.79,secondary,pending recompute,pending recompute,pending recompute,known_eb,Prsa2022,5.33774,same
 s0001,discovery_s0001_lot20260611T050830_2026-06-11,403220942,16.69,2614,13,0.61,V-shape,pending recompute,pending recompute,pending recompute,new,,,
