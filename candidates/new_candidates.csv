@@ -471,7 +471,7 @@ s0023,discovery_s0023_lot20260628T215304_2026-06-29,199613045,14.21,2905,12,0.72
 s0023,discovery_s0023_lot20260628T215304_2026-06-29,199618161,14.39,1682,12,0.73,ok,pending recompute,pending recompute,pending recompute,new,,,
 s0023,discovery_s0023_lot20260628T215304_2026-06-29,199618257,13.69,2450,12,0.53,ok,pending recompute,pending recompute,pending recompute,new,,,
 s0023,discovery_s0023_lot20260628T215304_2026-06-29,199618862,9.29,2370,13,0.81,ok,pending recompute,pending recompute,pending recompute,new,,,
-s0023,discovery_s0023_lot20260628T215304_2026-06-29,199631848,6.87,1815,11,0.62,ok,pending recompute,pending recompute,pending recompute,new,,,
+s0023,discovery_s0023_lot20260628T215304_2026-06-29,199631848,6.87,1815,11,0.62,ok,0.00271643,0.000626206,tri_mid_fpp,new,,,
 s0023,discovery_s0023_lot20260628T215304_2026-06-29,199634247,13.71,2016,11,0.56,ok,pending recompute,pending recompute,pending recompute,new,,,
 s0023,discovery_s0023_lot20260628T215304_2026-06-29,199634926,7.41,319,12,0.94,odd/even,pending recompute,pending recompute,pending recompute,new,,,
 s0023,discovery_s0023_lot20260628T215304_2026-06-29,199658730,9.39,2574,12,0.53,ok,pending recompute,pending recompute,pending recompute,new,,,
