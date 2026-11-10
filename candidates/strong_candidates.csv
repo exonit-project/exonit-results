@@ -354,7 +354,7 @@ s0001,discovery_s0001_lot20260623T184218_2026-06-23,372851668,2.59,4538,77,0.57,
 s0001,discovery_s0001_lot20260623T184218_2026-06-23,374997123,10.19,165,14,0.56,ok,pending recompute,pending recompute,pending recompute,toi_candidate,TOI-1222.01,10.1945,same
 s0001,discovery_s0001_lot20260612T050945_2026-06-12,381915829,14.51,985,10,0.91,V-shape,pending recompute,pending recompute,pending recompute,new,,,
 s0001,discovery_s0001_lot20260621T200853_2026-06-22,382068562,4.04,5790,577,0.56,ok,pending recompute,pending recompute,pending recompute,toi_candidate,TOI-924.01;GaiaDR3-NSS:tbosb1,12.1273,1/3x
-s0001,discovery_s0001_lot20260621T200853_2026-06-22,382200986,10.28,945,18,0.62,ok,pending recompute,pending recompute,pending recompute,known_planet,TOI-4409.01;CTOI-382200986.01;TOI-4409 b,92.4918,other
+s0001,discovery_s0001_lot20260621T200853_2026-06-22,382200986,10.28,945,18,0.62,ok,0.000767055,3.37584e-07,tri_mid_fpp,known_planet,TOI-4409.01;CTOI-382200986.01;TOI-4409 b,92.4918,other
 s0001,discovery_s0001_lot20260603T142052_2026-06-03,382222100,0.52,1277,12,0.54,ok,pending recompute,pending recompute,pending recompute,new,,,
 s0001,discovery_s0001_lot20260601T050658_2026-06-01,382224172,1.90,1817,15,0.51,ok,pending recompute,pending recompute,pending recompute,new,,,
 s0001,discovery_s0001_lot20260621T200853_2026-06-22,382259755,3.66,4353,129,0.90,ok,pending recompute,pending recompute,pending recompute,toi_candidate,TOI-2622.01,1.2207,3x
