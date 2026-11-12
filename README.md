@@ -6,7 +6,7 @@
 > astrophysicist. These are raw pipeline outputs. **Do NOT submit anything here to ExoFOP** and do not make
 > scientific claims based on it. See [CONFIDENCE_LEDGER.md](CONFIDENCE_LEDGER.md).
 
-Generated 2026-11-12T19:45:15Z from internal commit `5332c63aa79bfb021770337a75cb0171de5be7b1` by `scripts/release/build_public_results.py`
+Generated 2026-11-12T22:15:46Z from internal commit `5332c63aa79bfb021770337a75cb0171de5be7b1` by `scripts/release/build_public_results.py`
 of [exonit-public](https://github.com/exonit-project/exonit-public). Everything here is generated; do not edit by hand.
 
 **Recompute progress:** 522 of 924 strong rows recomputed with the v3 FPP model; the others read `pending recompute`.
