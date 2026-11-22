@@ -4,10 +4,10 @@ FPP values computed with the current engine, one per candidate signal; a candida
 
 | item | value |
 | --- | ---: |
-| computed | 256,760 |
+| computed | 261,833 |
 | planned total | 946,362 |
-| computed share | 0.2713 |
-| unstable | 207,030 |
+| computed share | 0.2767 |
+| unstable | 210,647 |
 | imported in force | 218,514 |
 | imported synthetic aperture | 1 |
 | invalid only | 0 |
@@ -16,20 +16,20 @@ FPP values computed with the current engine, one per candidate signal; a candida
 
 | verdict | computed | stable |
 | --- | ---: | ---: |
-| candidate | 229,790 | 22,760 |
-| likely_fp | 26,892 | 26,892 |
-| validated | 78 | 78 |
+| candidate | 234,146 | 23,499 |
+| likely_fp | 27,606 | 27,606 |
+| validated | 81 | 81 |
 
 ## By device kind
 
 | device kind | computed |
 | --- | ---: |
-| cpu | 42,143 |
-| gpu | 214,617 |
+| cpu | 43,192 |
+| gpu | 218,641 |
 
 **Unstable**: the Monte-Carlo estimate rests on too few effective samples of its dominant scenario: the value can change if recomputed, and such a result is never reported above 'candidate'.
 
-since the previous publication: +5206
+since the previous publication: +5073
 
 What is not being recomputed is listed in `FPP_NOT_RECOMPUTED.md`.
 
