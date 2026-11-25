@@ -1,24 +1,24 @@
 {
   "by_device_kind": {
-    "cpu": 65045,
-    "gpu": 283620
+    "cpu": 67013,
+    "gpu": 287761
   },
   "by_verdict": {
-    "candidate": 307580,
-    "likely_fp": 40966,
-    "validated": 119
+    "candidate": 312867,
+    "likely_fp": 41785,
+    "validated": 122
   },
-  "computed": 348665,
-  "computed_share": 0.3684,
+  "computed": 354774,
+  "computed_share": 0.3749,
   "imported_in_force": 218514,
   "imported_synthetic_aperture": 1,
   "invalid_only": 0,
   "planned_total": 946362,
-  "since_previous_publication": 7499,
+  "since_previous_publication": 6109,
   "stable_by_verdict": {
-    "candidate": 36608,
-    "likely_fp": 40966,
-    "validated": 119
+    "candidate": 37659,
+    "likely_fp": 41785,
+    "validated": 122
   },
-  "unstable": 270972
+  "unstable": 275208
 }
